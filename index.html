@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Carousel</title>
+        <link href="css/formstyler.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jcarousel.basic.css">
+        <link rel="stylesheet" href="css/mystyle.css">
+        <script type="text/javascript" src="script/jquery.js"></script>
+        <script type="text/javascript" src="script/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="script/jcarousel.basic.js"></script>
+        <script src="script/jquery.formstyler.min.js"></script>
+        <script src="script/formstyler.basic.js"></script>
+        <script src="script/jquery.dropmenu.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Carousel</h1>
+
+
+            <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                        <li><img src="img/img1.jpg" width="600" height="400" alt="$"></li>
+                        <li><img src="img/img2.jpg" width="600" height="400" alt="$"></li>
+                        <li><img src="img/img3.jpg" width="600" height="400" alt="$"></li>
+                        <li><img src="img/img4.jpg" width="600" height="400" alt="$"></li>
+                        <li><img src="img/img5.jpg" width="600" height="400" alt="$"></li>
+                        <li><img src="img/img6.jpg" width="600" height="400" alt="$"></li>
+                    </ul>
+                </div>
+
+                <p class="photo-credits">
+                    by <a href="https://ua.linkedin.com/in/vladislav-krivokon-848b20129" target="_blank">vladeslimonade</a>
+                </p>
+
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                
+                <p class="jcarousel-pagination">
+                    
+                </p>
+            </div>
+        </div>
+        <h1>Select</h1>
+        <form action="url">                      
+            <select name="model" id="formstyle_1">
+                <option value="1"></option>
+                <option value="1">Значение 1</option>
+                <option value="2">Значение 2</option>
+                <option value="3">Значение 3</option>
+                <option value="3">Значение 4</option>
+                <option value="3">Значение 5</option>
+                <option value="3">Значение 6</option>
+                <option value="3">Значение 7</option>
+            </select>
+            <select name="model" id="formstyle_2">
+                <option value="1"></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="3">4</option>
+                <option value="3">5</option>
+                <option value="3">6</option>
+                <option value="3">7</option>
+            </select>
+            <select name="model" id="formstyle_3">
+                <option value="1"></option>
+                <option value="1">Значение 1</option>
+                <option value="2">Значение 2</option>
+                <option value="3">Значение 3</option>
+                <option value="3">Значение 4</option>
+                <option value="3">Значение 5</option>
+                <option value="3">Значение 6</option>
+                <option value="3">Значение 7</option>
+            </select>
+        </form>
+          <h1>Checkbox CSS</h1>
+        <div class="checkcss">
+            <input id="check1" type="checkbox" name="check" value="check1">
+            <label for="check1"><span></span>Checkbox CSS</label>
+            <input id="check2" type="checkbox" name="check" value="check2">
+            <label for="check2"><span></span>Checkbox CSS</label>
+            <input id="check3" type="checkbox" name="check" value="check1">
+            <label for="check3"><span></span>Checkbox CSS</label>
+            <input id="check4" type="checkbox" name="check" value="check2">
+            <label for="check4"><span></span>Checkbox CSS</label>
+        </div>
+        <h1>Checkbox jQuery</h1>
+        <div class="checkjq">
+            <input id="check11" type="checkbox" name="check" value="check1">
+            <label for="check11"><span></span>Checkbox jQuery</label>
+            <input id="check22" type="checkbox" name="check" value="check2">
+            <label for="check22"><span></span>Checkbox jQuery</label>
+            <input id="check33" type="checkbox" name="check" value="check1">
+            <label for="check33"><span></span>Checkbox jQuery</label>
+            <input id="check44" type="checkbox" name="check" value="check2">
+            <label for="check44"><span></span>Checkbox jQuery</label>
+        </div>
+        <h1>Animated dropdown menu</h1>
+        <div class="dropdown_menu">
+            <ul>
+                <li class="fi"><a href="#">nav 1</a></li>
+                <li><a class="bm" href="#">nav 2</a><div class="triangle_down"></div>
+                   <ul>
+                       <li><a class="blue_menu" href="#">dropdown 1</a></li>
+                       <li><a class="blue_menu" href="#">dropdown 2</a></li>
+                       <li><a class="blue_menu" href="#">dropdown 3</a></li>
+                       <li><a class="blue_menu ym" href="#">dropdown 4</a><div class="triangle_right"></div>
+                            <ul>
+                                <li><a class="yellow_menu" href="#">dropRight 1</a></li>
+                                <li><a class="yellow_menu pm" href="#">dropRight 2</a><div class="triangle_right"></div>
+                                    <ul>
+                                        <li><a class="purple_menu" href="#">the end)</a></li>
+                                        <li><a class="purple_menu" href="#">the end)</a></li>
+                                        <li><a class="purple_menu" href="#">the end)</a></li>
+                                        <li><a class="purple_menu" href="#">the end)</a></li>
+                                        <li><a class="purple_menu" href="#">the end)</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="yellow_menu" href="#">dropRight 3</a></li>
+                                <li><a class="yellow_menu" href="#">dropRight 4</a></li>
+                                <li><a class="yellow_menu" href="#">dropRight 5</a></li>
+                            </ul>
+                       </li>
+                       <li><a class="blue_menu" href="#">dropdown 5</a></li>
+                   </ul> 
+                </li>
+                <li><a href="#">nav 3</a></li>
+                <li><a href="#">nav 4</a></li>
+                <li><a href="#">nav 5</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

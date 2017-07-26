@@ -1,0 +1,146 @@
+.checkcss,
+.checkjq,
+.dropdown_menu {
+  width: 520px;
+  margin: 0 auto;
+}
+
+.checkjq  {
+  width: 600px;
+}
+
+.dropdown_menu {
+  width: 765px;
+}
+
+form {
+    width: 430px;
+    margin: 0 auto;
+}
+
+
+
+/*Чекбоксы css*/
+
+
+
+input {
+    display:none;
+}
+
+input + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../img/sprite.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../img/sprite.png) left top no-repeat;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background:url(../img/sprite.png) -19px top no-repeat;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/*Выпадающее меню*/
+
+
+.dropdown_menu ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+.dropdown_menu ul {
+  position: relative;
+}
+
+.dropdown_menu ul li a {
+  padding: 10px 50px;
+  background-color: #FA5858;
+  color: white;
+  text-shadow: none;
+  border: 1px solid transparent;
+}
+
+.dropdown_menu ul li a:hover {
+  border: 1px solid #FF0000;
+  background-color: #FF0000;
+  color: black;
+}
+
+.triangle_down,
+.triangle_right {
+  width: 0;
+  height: 0;
+  border-top: 7px solid white;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  top: 8px;
+  left: 100px;
+}
+
+.triangle_right {
+  border-top: 5px solid transparent;
+  border-left: 7px solid white;
+  border-bottom: 5px solid transparent;
+  top: 14px;
+  left: 117px;
+}
+
+.dropdown_menu ul ul li {
+  float: none;  
+  padding: 8px 0px;
+}
+
+.dropdown_menu ul ul {
+  display: none;
+  position: absolute;
+  width: 141px;
+  top: 30px;
+  right: -2px;
+  
+
+}
+
+.dropdown_menu ul ul a {
+  padding: 10px 30px;
+  
+}
+
+.dropdown_menu ul ul a:hover {
+  border: 1px solid transparent;
+}
+
+.dropdown_menu ul ul ul {
+  display: none;
+  position: absolute;
+  left: 101px;
+  top: 0px;
+}
+
+.dropdown_menu ul ul ul ul {
+  display: none;
+  position: absolute;
+  left: 100px;
+}
